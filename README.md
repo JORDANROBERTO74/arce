@@ -48,7 +48,7 @@ pnpm install
 
 | Variable | Required | Default | Description |
 | --- | --- | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | No | `https://arce.vercel.app` | Canonical origin used for metadata, canonical links, `hreflang`, sitemap, robots and Open Graph URLs. Set it to your production domain. |
+| `NEXT_PUBLIC_SITE_URL` | No | `https://arce-data.vercel.app` | Canonical origin used for metadata, canonical links, `hreflang`, sitemap, robots and Open Graph URLs. Set it to your production domain. |
 
 ### Develop
 
