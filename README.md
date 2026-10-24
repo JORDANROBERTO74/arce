@@ -6,6 +6,8 @@ Arce is a relational data platform for product teams — a production-ready mark
 
 > 🇪🇸 *Arce es una plataforma de datos relacional para equipos de producto: un sitio de marketing y landing SaaS listo para producción, con internacionalización (inglés y español) y SEO integrados.*
 
+![Arce homepage](./docs/screenshot.webp)
+
 ---
 
 ## Features
