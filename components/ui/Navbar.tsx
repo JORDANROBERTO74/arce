@@ -22,7 +22,7 @@ export function Navigation({
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
-    const mediaQuery: MediaQueryList = window.matchMedia("(min-width: 768px)");
+    const mediaQuery: MediaQueryList = window.matchMedia("(min-width: 1024px)");
     const handleMediaQueryChange = () => {
       setOpen(false);
     };
@@ -47,16 +47,16 @@ export function Navigation({
         "fixed inset-x-3 top-4 z-50 mx-auto flex max-w-6xl transform-gpu animate-slide-down-fade justify-center overflow-hidden rounded-xl border border-transparent px-3 py-3 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1.03)] will-change-transform",
         open === true ? "h-64" : "h-16",
         scrolled || open === true
-          ? "backdrop-blur-nav max-w-3xl border-gray-100 bg-white/80 shadow-xl shadow-black/5 dark:border-white/15 dark:bg-black/70"
+          ? "backdrop-blur-nav max-w-5xl border-gray-100 bg-white/80 shadow-xl shadow-black/5 dark:border-white/15 dark:bg-black/70"
           : "bg-white/0 dark:bg-gray-950/0",
       )}
     >
-      <div className="w-full md:my-auto">
+      <div className="w-full lg:my-auto">
         <div className="relative flex items-center justify-between">
           <Link href={`/${locale}`} aria-label={dict.home}>
             <ArceLogo className="text-2xl" />
           </Link>
-          <nav className="hidden md:absolute md:left-1/2 md:top-1/2 md:block md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
+          <nav className="hidden lg:absolute lg:left-1/2 lg:top-1/2 lg:block lg:-translate-x-1/2 lg:-translate-y-1/2 lg:transform">
             <div className="flex items-center gap-10 font-medium">
               {links.map((link) => (
                 <Link
@@ -69,11 +69,11 @@ export function Navigation({
               ))}
             </div>
           </nav>
-          <div className="hidden items-center gap-3 md:flex">
+          <div className="hidden items-center gap-3 lg:flex">
             <LocaleSwitcher locale={locale} label={dict.language} />
             <Button className="h-10 font-semibold">{dict.demo}</Button>
           </div>
-          <div className="flex gap-x-2 md:hidden">
+          <div className="flex gap-x-2 lg:hidden">
             <Button>{dict.demoShort}</Button>
             <Button
               onClick={() => setOpen(!open)}
@@ -92,7 +92,7 @@ export function Navigation({
         </div>
         <nav
           className={cx(
-            "my-6 flex text-lg ease-in-out will-change-transform md:hidden",
+            "my-6 flex text-lg ease-in-out will-change-transform lg:hidden",
             open ? "" : "hidden",
           )}
         >
