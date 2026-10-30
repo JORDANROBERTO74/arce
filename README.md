@@ -2,7 +2,7 @@
 
 **Data that grows with you.**
 
-Arce is a relational data platform for product teams — a production-ready marketing site and SaaS landing page built with Next.js, TypeScript, Tailwind CSS v4 and Tremor. It ships with full internationalization (English and Spanish), search-engine optimization, and a clean component architecture that is easy to rebrand and extend.
+Arce is a relational data platform for product teams — a production-ready marketing site and SaaS landing page built with Next.js, TypeScript, Tailwind CSS v4 and Tremor. It ships with full internationalization (English and Spanish), search-engine optimization, and a clean component architecture.
 
 > 🇪🇸 *Arce es una plataforma de datos relacional para equipos de producto: un sitio de marketing y landing SaaS listo para producción, con internacionalización (inglés y español) y SEO integrados.*
 
@@ -115,6 +115,6 @@ Arce targets a **global B2B audience** with **USD** pricing. The fictional compa
 
 ## License
 
-Copyright (c) 2026 Arce. All rights reserved. Proprietary — see [LICENSE](./LICENSE).
+Copyright (c) 2026 Roberto Jordán. All rights reserved. Proprietary - see [LICENSE](./LICENSE).
 
 This project is derived from the open-source Tremor template (MIT). See [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md) for attribution.

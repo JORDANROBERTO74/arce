@@ -1,14 +1,13 @@
-Copyright (c) 2026 Arce Data AG. All rights reserved.
+Copyright (c) 2026 Roberto Jordán. All rights reserved.
 
-This software and its accompanying source code are the proprietary and
-confidential property of Arce Data AG ("Arce"). No part of this software may be
-reproduced, distributed, transmitted, modified, or used in any form or by any
-means — electronic, mechanical, photocopying, recording, or otherwise — without
-the prior written permission of Arce.
+This source code and the brand assets in this repository are proprietary.
+No permission is granted to copy, modify, distribute, sublicense or use this
+material, in whole or in part, without prior written permission from the
+copyright holder.
 
-The software is provided "as is", without warranty of any kind, express or
-implied, including but not limited to the warranties of merchantability,
-fitness for a particular purpose, and noninfringement.
+"Arce" is a fictional project name used for demonstration purposes and does
+not represent a legal entity.
 
-Third-party open-source components used by this project are licensed under
-their own terms. See THIRD-PARTY-NOTICES.md for attribution.
+This project is derived from the open-source Tremor template (MIT). See
+THIRD-PARTY-NOTICES.md for attribution. Third-party dependencies remain under
+their own licenses.
